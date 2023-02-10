@@ -1,0 +1,13 @@
+body {
+margin: 0;
+
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 1fr 2fr 1fr;
+  height: 3000px;
+  
+}
