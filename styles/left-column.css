@@ -1,7 +1,126 @@
 .left-column {
   border-style: solid;
-  width: 75%;
+  width: 400px;
   position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
 
- 
+
+  
+}
+
+.logo {
+  padding-top: 20px;
+  padding-left: 60px;
+
+  display: flex;
+}
+
+.logo img{
+
+  width: 60px;
+
+}
+
+.leftnav {
+
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.leftnav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+
+
+}
+
+
+.leftnav-link {
+  font-size: 32px;
+  display: flex;
+
+}
+
+.leftnav-link img {
+  padding-right: 30px;
+}
+
+.tweet-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tweet-button button {
+  border: none;
+  width: 300px;
+  padding: 20px 80px;
+  color: white;
+  background-color: rgb(29, 155, 240);
+  margin-top: 30px;
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 60px;
+}
+
+
+.profile-container {
+  border-style: solid;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 350px;
+
+  position: absolute;
+  bottom: 20px;
+}
+
+.profile-container:hover {
+  background-color: rgb(232, 230, 230, 0.90);
+}
+
+.profile-info {
+  margin-right: 20px;
+
+}
+
+
+
+.profile-pic img {
+  
+  width: 70px;
+  object-fit: cover;
+  
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile-tag {
+font-size: 22px;
+color: rgb(106, 106, 106);
+}
+
+.profile-more {
+  width: 10px;
+
+
 }
