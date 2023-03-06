@@ -5,9 +5,6 @@
   top: 0;
   left: 0;
   bottom: 0;
-
-
-  
 }
 
 .logo {
@@ -17,21 +14,16 @@
   display: flex;
 }
 
-.logo img{
-
+.logo img {
   width: 60px;
-
 }
 
 .leftnav {
-
   height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .leftnav-links {
@@ -39,15 +31,11 @@
   flex-direction: column;
   justify-content: space-between;
   height: 600px;
-
-
 }
-
 
 .leftnav-link {
   font-size: 32px;
   display: flex;
-
 }
 
 .leftnav-link img {
@@ -73,7 +61,6 @@
   padding-left: 60px;
 }
 
-
 .profile-container {
   border-style: solid;
   border-radius: 40px;
@@ -91,21 +78,16 @@
 }
 
 .profile-container:hover {
-  background-color: rgb(232, 230, 230, 0.90);
+  background-color: rgb(232, 230, 230, 0.9);
 }
 
 .profile-info {
   margin-right: 20px;
-
 }
 
-
-
 .profile-pic img {
-  
   width: 70px;
   object-fit: cover;
-  
 }
 
 .profile-name {
@@ -115,12 +97,10 @@
 }
 
 .profile-tag {
-font-size: 22px;
-color: rgb(106, 106, 106);
+  font-size: 22px;
+  color: rgb(106, 106, 106);
 }
 
 .profile-more {
   width: 10px;
-
-
 }
