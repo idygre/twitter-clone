@@ -1,19 +1,12 @@
 body {
-margin: 0;
-padding-left: 450px;
-padding-right: 350px;
-height: 3000px;
-
-font-family: Arial, Roboto;
-
+  margin: 0;
+  height: 3000px;
+  font-family: Roboto, Arial;
+  max-width: 1300px;
 }
 
 .container {
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 1fr 2fr 1fr; 
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 275px auto 300px;
 }
-
-
-

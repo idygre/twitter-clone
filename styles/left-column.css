@@ -1,106 +1,83 @@
 .left-column {
   border-style: solid;
-  width: 400px;
+  border-width: 1px;
   position: fixed;
   top: 0;
-  left: 0;
   bottom: 0;
-}
-
-.logo {
-  padding-top: 20px;
-  padding-left: 60px;
-
-  display: flex;
-}
-
-.logo img {
-  width: 60px;
+  width: 270px;
 }
 
 .leftnav {
-  height: 900px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+.logo img {
+  width: 35px;
+  margin-left: 50px;
 }
 
 .leftnav-links {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 600px;
 }
 
 .leftnav-link {
-  font-size: 32px;
   display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .leftnav-link img {
-  padding-right: 30px;
+  margin-right: 15px;
+  width: 30px;
+}
+
+.leftnav-title {
+  font-size: 20px;
 }
 
 .tweet-button {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .tweet-button button {
-  border: none;
-  width: 300px;
-  padding: 20px 80px;
-  color: white;
   background-color: rgb(29, 155, 240);
-  margin-top: 30px;
+  border: none;
   border-radius: 30px;
-  font-size: 25px;
+  padding: 15px 70px;
+  color: white;
   font-weight: bold;
-  padding-left: 60px;
+
+  margin-top: 10px;
 }
 
 .profile-container {
-  border-style: solid;
-  border-radius: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  width: 350px;
-
-  position: absolute;
+  position: fixed;
   bottom: 20px;
 }
 
-.profile-container:hover {
-  background-color: rgb(232, 230, 230, 0.9);
-}
-
-.profile-info {
-  margin-right: 20px;
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  background-color: grey;
 }
 
 .profile-pic img {
-  width: 70px;
-  object-fit: cover;
+  width: 35px;
+  margin-right: 15px;
 }
 
-.profile-name {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 5px;
+.profile-info {
+  margin-right: 60px;
 }
 
-.profile-tag {
-  font-size: 22px;
-  color: rgb(106, 106, 106);
-}
-
-.profile-more {
-  width: 10px;
+.profile-more img {
+  width: 25px;
 }
