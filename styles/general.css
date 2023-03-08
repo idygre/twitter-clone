@@ -10,3 +10,9 @@ body {
   display: grid;
   grid-template-columns: 275px auto 300px;
 }
+
+@media (max-width: 1290px) {
+  .container {
+    grid-template-columns: 95px auto 300px;
+  }
+}
