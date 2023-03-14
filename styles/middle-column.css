@@ -3,4 +3,31 @@
   border-color: black;
   border-style: solid;
   height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.home-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.feed-tabs-container {
+  display: flex;
+  flex-direction: row;
+
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.post-profile-pic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 10px;
+  overflow: hidden;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Twitter Clone</title>
     <link rel="stylesheet" href="styles/general.css" />
@@ -73,39 +73,100 @@
             <button>Tweet</button>
           </div>
 
-          <div class="tweet-button-small">
-            <img src="icons/feather.svg" alt="" />
+          <div class="sidebar-tweet-button-small">
+            <img src="icons/feather.svg" width="30px" height="30px" alt="" />
           </div>
 
           <div class="profile-container">
             <div class="profile">
               <div class="profile-pic">
-                <img src="profile-pic.png" alt="" />
+                <img
+                  src="assets/profile-pic.png"
+                  width="35px"
+                  height="35px"
+                  alt=""
+                />
               </div>
               <div class="profile-info">
                 <div class="profile-name">AngryBird</div>
                 <div class="profile-tag">@AngryBird</div>
               </div>
-              <div class="profile-more">
-                <img src="icons/profile-more.svg" alt="" />
-              </div>
+              <div class="profile-more"></div>
             </div>
           </div>
         </div>
       </div>
 
-      <!--Feed-->
+      <!--Feed/Middle-->
       <div class="feed-container">
         <div class="feed">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-          doloribus expedita ullam quod vero sint, maiores ut quas! Amet minima
-          dolor, itaque voluptas vel aperiam nulla similique! Illum, maiores
-          pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Ducimus magnam, dignissimos numquam officia eum consectetur in
-          sapiente. Vitae eligendi repellendus quibusdam! Ipsa quasi
-          exercitationem facilis debitis, nam dolor. Delectus, modi?
+          <!--The home title-->
+          <div class="home-title">Home</div>
+
+          <!--Feeds tab: for you, following-->
+          <div class="feed-tabs-container">
+            <div class="feed-tab-foryou">For you</div>
+            <div class="feed-tab-following">Following</div>
+          </div>
+
+          <!--Create a tweet-->
+          <div class="write-tweet-container">
+            <div class="post-profile-pic">
+              <img
+                src="assets/profile-pic.png"
+                width="40px"
+                height="40px"
+                alt=""
+              />
+            </div>
+            <div class="post-contents">
+              <div class="post-header"></div>
+              <div class="post-tweet">Hello, this is a tweet</div>
+              <div class="post-stats">insert several divs here for stats</div>
+            </div>
+          </div>
+
+          <!--A tweet on the feed-->
+          <div class="tweet-post-container">
+            <div class="post-profile-pic">
+              <img
+                src="assets/profile-pic-3.png"
+                width="40px"
+                height="40px"
+                alt=""
+              />
+            </div>
+            <div class="post-contents">
+              <div class="post-header"></div>
+              <div class="post-tweet">Hello, this is a tweet</div>
+              <div class="post-stats">insert several divs here for stats</div>
+            </div>
+          </div>
+
+          <!--A tweet on the feed with picture-->
+          <div class="tweet-post-container">
+            <div class="post-profile-pic">
+              <img
+                src="assets/profile-pic-3.png"
+                width="40px"
+                height="40px"
+                alt=""
+              />
+            </div>
+            <div class="post-contents-pic">
+              <div class="post-header"></div>
+              <div class="post-tweet">
+                Hello, this is a tweet
+                <div class="post-hashtags">#NewProfilePic</div>
+              </div>
+              <div class="post-pic">[Insert pic post here]</div>
+              <div class="post-stats">insert several divs here for stats</div>
+            </div>
+          </div>
         </div>
+        <!--End of feed container-->
       </div>
+      <!--End of Feed/Middle-->
 
       <!--Right column-->
       <div class="container__right-column">
